@@ -84,6 +84,7 @@ var localDatabase = {
 		var objRaw = this.get();
 		var dados = JSON.parse( objRaw );
 		eval("dados[0]."+nome+" = valor;");
+		this.data = dados[0];
 		localDatabase.set( JSON.stringify(dados) );
 	}
 
@@ -92,6 +93,7 @@ var localDatabase = {
 		var objRaw = this.get();
 		var dados = JSON.parse( objRaw );
 		eval("var item = dados[0]."+nome+";");
+		this.data = dados[0];
 		return item;
 	}
 
@@ -100,6 +102,7 @@ var localDatabase = {
 		var objRaw = this.get();
 		var dados = JSON.parse( objRaw );
 		eval("delete dados[0]."+nome+";");
+		this.data = dados[0];
 		localDatabase.set( JSON.stringify(dados) );
 	}
 
