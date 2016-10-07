@@ -4,14 +4,13 @@ Esse é meu primeiro teste no github. Então, se você achou interessante a idei
 
 ## Usage
 1. Certifique-se de que já tem incluído o JQuery em suas tags head
-```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-```
+  ```
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  ```
 2. Inclua o script em suas tags head
-```
-<script src="localDatabase.min.js"></script>
-```
-
+  ```
+  <script src="localDatabase.min.js"></script>
+  ```
 3. Em qualquer campo dos formulários, basta adicionar o atributo localDatabase.
 
 ### Exemplos
