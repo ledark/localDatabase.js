@@ -34,6 +34,7 @@ localDatabase é um *javascript object*, e por tanto, ele também possuí métod
 localDatabase.setVar('minhaVariavel', 'ValorTeste'); //Definir Variável
 localDatabase.getVar('minhaVariavel'); //return string|int valor da variável
 localDatabase.delVar('minhaVariavel'); //Deletar Variável
+console.log(localDatabase.data); //Conteúdo do localDatabase (apenas para visualizar)
 ```
 
 
