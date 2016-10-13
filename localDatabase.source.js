@@ -37,7 +37,10 @@ var localDatabase = {
 			var localDatabaseData = localStorage.getItem( 'localDatabase' );
 			if(localDatabaseData == '' || localDatabaseData == 'undefined' || localDatabaseData == 'null' || localDatabaseData == null) {
 				localDatabaseData = JSON.stringify([{campo1: '', campo2: ''}]);
-			}			
+			}
+			if( localDatabaseData.indexOf('[') !== 0 ) {
+				localDatabaseData = '['+localDatabaseData+']';
+			}
 			return localDatabaseData;
 		} else {
 			return this.getCookie("localDatabase");
