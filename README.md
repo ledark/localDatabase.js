@@ -1,3 +1,5 @@
+Não utilize mais! Está depreciado!
+
 # localDatabase.js
 Usa o HTML5 localStorage para lidar com armazenamento de dados offline.
 Esse é meu primeiro teste no github. Então, se você achou interessante a ideia desse projeto (que já está utilizável em sua versão 1.0), por favor comente como melhorar e faça suas contribuições, se possível. Obrigado!
