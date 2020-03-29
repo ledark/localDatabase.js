@@ -1,4 +1,4 @@
-Não utilize mais! Está depreciado!
+# Não utilize mais! Está depreciado! Foi criado apenas como testes iniciais do Storage há milianos atrás!
 
 # localDatabase.js
 Usa o HTML5 localStorage para lidar com armazenamento de dados offline.
